@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nahulthejoker.transactioncontrol">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="300.0" style="-fx-background-color: #0073CE;">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="4.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@footballrotating.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="10.0" layoutY="8.0" onMouseClicked="#transactiontohome" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@back.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="85.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIST KickOff" wrappingWidth="199.4091796875">
+               <font>
+                  <Font name="Algerian" size="50.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="156.0" fitWidth="144.0" layoutX="66.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@increase.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="307.0" fitWidth="180.0" layoutX="54.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Bilai.gif" />
+               </image>
+            </ImageView>
+            <Text fill="#fafafa" layoutX="51.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transaction History" textAlignment="CENTER" wrappingWidth="192.64410400390625">
+               <font>
+                  <Font name="Times New Roman" size="40.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

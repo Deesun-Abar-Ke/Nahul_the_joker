@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nahulthejoker.searchcontrol">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="300.0" style="-fx-background-color: #0073CE;">
+         <children>
+            <ImageView fitHeight="300.0" fitWidth="290.0" layoutX="6.0" layoutY="460.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@penguin.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="10.0" layoutY="8.0" onMouseClicked="#searchtohome" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@back.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="4.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@footballrotating.gif" />
+               </image>
+            </ImageView>
+            <Text fill="#e4d6d6" layoutX="81.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIST KickOff" wrappingWidth="199.94247436523438">
+               <font>
+                  <Font name="Algerian" size="50.0" />
+               </font>
+            </Text>
+            <TextField alignment="CENTER" layoutX="72.0" layoutY="391.0" promptText="Search" />
+            <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="75.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@search6.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

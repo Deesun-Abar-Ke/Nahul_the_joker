@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nahulthejoker.homecontrol">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="300.0">
+         <children>
+            <Text layoutX="93.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIST KickOff" wrappingWidth="203.14250946044922">
+               <font>
+                  <Font name="Algerian" size="50.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="81.0" fitWidth="85.0" layoutX="4.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@footballrotating.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="100.0" layoutY="455.0" onMouseClicked="#hometologin" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logout.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="45.0" layoutY="610.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@green1.gif" />
+               </image>
+            </ImageView>
+            <Label layoutX="106.0" layoutY="541.0" text="Logout">
+               <font>
+                  <Font name="Times New Roman" size="25.0" />
+               </font></Label>
+            <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="103.0" layoutY="183.0" onMouseClicked="#hometomarketplace" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cart2.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="71.0" layoutY="268.0" text="Marketplace">
+               <font>
+                  <Font name="Times New Roman" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="109.0" layoutY="318.0" onMouseClicked="#hometoabout" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@info.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="93.0" layoutY="404.0" text="About Us">
+               <font>
+                  <Font name="Times New Roman" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="900.0" prefHeight="800.0" prefWidth="300.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="50.0" layoutY="598.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@green3.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="104.0" layoutY="37.0" onMouseClicked="#hometotransaction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@refund.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="103.0" layoutY="222.0" onMouseClicked="#hometoplayer" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@team.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="103.0" layoutY="411.0" onMouseClicked="#hometosearch" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@search.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="113.0" layoutY="528.0" text="Search">
+               <font>
+                  <Font name="Times New Roman" size="25.0" />
+               </font>
+            </Label>
+            <Text layoutX="18.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transaction History" textAlignment="CENTER" wrappingWidth="263.1480255126953">
+               <font>
+                  <Font name="Times New Roman" size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="37.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player Formation" textAlignment="CENTER" wrappingWidth="239.93060302734375">
+               <font>
+                  <Font name="Times New Roman" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="300.0" prefHeight="800.0" prefWidth="600.0" style="-fx-background-color: #0073CE;" />
+   </children>
+</AnchorPane>
